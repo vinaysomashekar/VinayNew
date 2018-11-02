@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [MySelenium]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.mycompany.tesNG.Yahoo">
+        <methods>
+          <include name="beforeEachtest"/>
+          <include name="afterEachtest"/>
+          <include name="testCompose2"/>
+        </methods>
+      </class> <!-- com.mycompany.tesNG.Yahoo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [MySelenium] -->

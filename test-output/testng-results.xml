@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-01T17:59:59Z" name="MySelenium" finished-at="2018-09-01T17:59:59Z" duration-ms="114">
+    <groups>
+    </groups>
+    <test started-at="2018-09-01T17:59:59Z" name="Test" finished-at="2018-09-01T17:59:59Z" duration-ms="114">
+      <class name="com.mycompany.tesNG.Yahoo">
+        <test-method is-config="true" signature="beforeEachtest()[pri:0, instance:com.mycompany.tesNG.Yahoo@45b4c3a9]" started-at="2018-09-01T17:59:59Z" name="beforeEachtest" finished-at="2018-09-01T17:59:59Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachtest -->
+        <test-method is-config="true" signature="beforeEachtest()[pri:0, instance:com.mycompany.tesNG.Yahoo@45b4c3a9]" started-at="2018-09-01T17:59:59Z" name="beforeEachtest" finished-at="2018-09-01T17:59:59Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachtest -->
+        <test-method is-config="true" signature="beforeEachtest()[pri:0, instance:com.mycompany.tesNG.Yahoo@45b4c3a9]" started-at="2018-09-01T17:59:59Z" name="beforeEachtest" finished-at="2018-09-01T17:59:59Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachtest -->
+        <test-method signature="testCompose2()[pri:0, instance:com.mycompany.tesNG.Yahoo@45b4c3a9]" started-at="2018-09-01T17:59:59Z" name="testCompose2" finished-at="2018-09-01T17:59:59Z" duration-ms="18" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at com.mycompany.tesNG.Yahoo.testCompose2(Yahoo.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.base/java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompose2 -->
+        <test-method signature="testLogin()[pri:0, instance:com.mycompany.tesNG.Yahoo@45b4c3a9]" started-at="2018-09-01T17:59:59Z" name="testLogin" finished-at="2018-09-01T17:59:59Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testAddCart()[pri:0, instance:com.mycompany.tesNG.Yahoo@45b4c3a9]" started-at="2018-09-01T17:59:59Z" name="testAddCart" finished-at="2018-09-01T17:59:59Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCart -->
+        <test-method is-config="true" signature="afterEachtest()[pri:0, instance:com.mycompany.tesNG.Yahoo@45b4c3a9]" started-at="2018-09-01T17:59:59Z" name="afterEachtest" finished-at="2018-09-01T17:59:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachtest -->
+        <test-method is-config="true" signature="afterEachtest()[pri:0, instance:com.mycompany.tesNG.Yahoo@45b4c3a9]" started-at="2018-09-01T17:59:59Z" name="afterEachtest" finished-at="2018-09-01T17:59:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachtest -->
+        <test-method is-config="true" signature="afterEachtest()[pri:0, instance:com.mycompany.tesNG.Yahoo@45b4c3a9]" started-at="2018-09-01T17:59:59Z" name="afterEachtest" finished-at="2018-09-01T17:59:59Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachtest -->
+      </class> <!-- com.mycompany.tesNG.Yahoo -->
+      <class name="com.mycompany.tesNG.Yahoo2">
+        <test-method is-config="true" signature="beforeEachtest()[pri:0, instance:com.mycompany.tesNG.Yahoo2@399c4be1]" started-at="2018-09-01T17:59:59Z" name="beforeEachtest" finished-at="2018-09-01T17:59:59Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachtest -->
+        <test-method is-config="true" signature="beforeEachtest()[pri:0, instance:com.mycompany.tesNG.Yahoo2@399c4be1]" started-at="2018-09-01T17:59:59Z" name="beforeEachtest" finished-at="2018-09-01T17:59:59Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachtest -->
+        <test-method signature="testLogin()[pri:0, instance:com.mycompany.tesNG.Yahoo2@399c4be1]" started-at="2018-09-01T17:59:59Z" name="testLogin" finished-at="2018-09-01T17:59:59Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testAddCart()[pri:0, instance:com.mycompany.tesNG.Yahoo2@399c4be1]" started-at="2018-09-01T17:59:59Z" name="testAddCart" finished-at="2018-09-01T17:59:59Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCart -->
+        <test-method is-config="true" signature="afterEachtest()[pri:0, instance:com.mycompany.tesNG.Yahoo2@399c4be1]" started-at="2018-09-01T17:59:59Z" name="afterEachtest" finished-at="2018-09-01T17:59:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachtest -->
+        <test-method is-config="true" signature="beforeEachtest()[pri:0, instance:com.mycompany.tesNG.Yahoo2@399c4be1]" started-at="2018-09-01T17:59:59Z" name="beforeEachtest" finished-at="2018-09-01T17:59:59Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachtest -->
+        <test-method signature="testCompose()[pri:0, instance:com.mycompany.tesNG.Yahoo2@399c4be1]" started-at="2018-09-01T17:59:59Z" name="testCompose" finished-at="2018-09-01T17:59:59Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompose -->
+        <test-method is-config="true" signature="afterEachtest()[pri:0, instance:com.mycompany.tesNG.Yahoo2@399c4be1]" started-at="2018-09-01T17:59:59Z" name="afterEachtest" finished-at="2018-09-01T17:59:59Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachtest -->
+        <test-method is-config="true" signature="afterEachtest()[pri:0, instance:com.mycompany.tesNG.Yahoo2@399c4be1]" started-at="2018-09-01T17:59:59Z" name="afterEachtest" finished-at="2018-09-01T17:59:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachtest -->
+      </class> <!-- com.mycompany.tesNG.Yahoo2 -->
+    </test> <!-- Test -->
+  </suite> <!-- MySelenium -->
+</testng-results>

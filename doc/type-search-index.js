@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.mycompany.myapp.assignment","l":"Account"},{"p":"Assignment","l":"chkoddEven"},{"p":"com.mycompany.myapp.assignment","l":"DataTypeQuiz"},{"p":"Test","l":"LearningDataTypes"},{"p":"loops","l":"loops"},{"p":"com.mycompany.myapp.assignment","l":"Operators"},{"p":"loops","l":"tables"}]
